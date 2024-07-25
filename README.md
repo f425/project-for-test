@@ -64,15 +64,11 @@ Caused by: java.lang.ClassNotFoundException: com.test1.Test1
 ```
 7. so is there something wrong about `Extension Pack for Java` or other config i can hava a try?
 
-
-
-### publish the project `TestProcessor` first before compile other project
-1. publish projcet in `TERMINAL` powershell with `./gradlew processor:publishToMavenLocal`
-
 ### some test
-1. run `./gradlew jar` in `TERMINAL` with `JAVA_HOME`, got `BUILD SUCESS`
-2. set jdk path in gradle.properties with jdk8, run `./gradlew jar`, got `BUILD SUCESS`
-3. set jdk path in gradle.properties with jdk17, run `./gradlew jar`, got ERROR most same to ERROR in `OpenLog`
+1. publish projcet in `TERMINAL` powershell with `./gradlew processor:publishToMavenLocal` (publish the project `TestProcessor` first before compile other project)
+2. run `./gradlew jar` in `TERMINAL` with `JAVA_HOME`, got `BUILD SUCESS`
+3. set jdk path in gradle.properties with jdk8, run `./gradlew jar`, got `BUILD SUCESS`
+4. set jdk path in gradle.properties with jdk17, run `./gradlew jar`, got ERROR most same to ERROR in `OpenLog`
 ```
 > Task :test1:compileJava FAILED
 

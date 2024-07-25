@@ -1,0 +1,4 @@
+rootProject.name = 'ttt'
+include 'processor'
+include 'test1'
+include 'test2'

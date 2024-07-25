@@ -1,0 +1,27 @@
+
+subprojects {
+    println '------------------'
+    println project.name + " java.version: " + System.properties['java.version']
+    println project.name + " java.home: " + System.properties['java.home']
+    println project.name + " JAVA_HOME: " + System.env.JAVA_HOME
+
+    group 'com.ttt'
+    version '1.0'
+
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+    tasks.compileJava {
+        options.compilerArgs.add("-parameters")
+    }
+
+    repositories {
+        mavenLocal()
+    }
+}

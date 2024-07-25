@@ -1,0 +1,4 @@
+dependencies {
+    compileOnly 'com.ttt:processor:0.0.1-LOCAL'
+    annotationProcessor 'com.ttt:processor:0.0.1-LOCAL'
+}

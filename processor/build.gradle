@@ -1,0 +1,33 @@
+apply plugin: 'maven-publish'
+
+version '0.0.1-LOCAL'
+
+dependencies {
+    implementation files("${System.properties['java.home']}/../lib/tools.jar")
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+    }
+
+    publications {
+        mavenJava(MavenPublication) {
+        from components.java
+        pom {
+                name = rootProject.name
+                packaging = 'jar'
+                description = 'ttt'
+            }
+        }
+    }
+}
+
+task sourcesJar(type: Jar) {
+    classifier 'sources'
+    from sourceSets.main.java.srcDirs
+}
+
+artifacts {
+    archives sourcesJar
+}

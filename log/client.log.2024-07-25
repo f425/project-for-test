@@ -1,0 +1,76 @@
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-25 11:49:34.923'
+}
+{
+  message: 'Starting Java server with: C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.12+7\\bin\\java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\\Users\\ww\\.vscode\\extensions\\redhat.java-1.32.0-win32-x64\\lombok\\lombok-1.18.33.jar -jar c:\\Users\\ww\\.vscode\\extensions\\redhat.java-1.32.0-win32-x64\\server\\plugins\\org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration c:\\Users\\ww\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.32.0\\config_ss_win -data c:\\Users\\ww\\AppData\\Roaming\\Code\\User\\workspaceStorage\\3e97e2387ddb19e2ffeaaada79096dfa\\redhat.java\\ss_ws',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:35.072'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\r\n',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:35.166'
+}
+{
+  message: 'Starting Java server with: C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.12+7\\bin\\java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\\Users\\ww\\.vscode\\extensions\\redhat.java-1.32.0-win32-x64\\lombok\\lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=c:\\Users\\ww\\AppData\\Roaming\\Code\\User\\workspaceStorage\\3e97e2387ddb19e2ffeaaada79096dfa\\redhat.java -Daether.dependencyCollector.impl=bf -jar c:\\Users\\ww\\.vscode\\extensions\\redhat.java-1.32.0-win32-x64\\server\\plugins\\org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration c:\\Users\\ww\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.32.0\\config_win -data c:\\Users\\ww\\AppData\\Roaming\\Code\\User\\workspaceStorage\\3e97e2387ddb19e2ffeaaada79096dfa\\redhat.java\\jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:35.186'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\r\n',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:35.244'
+}
+{
+  message: '7月 25, 2024 11:49:35 上午 org.apache.aries.spifly.BaseActivator log\r\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\r\n',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:35.839'
+}
+{
+  message: '7月 25, 2024 11:49:35 上午 org.apache.aries.spifly.BaseActivator log\r\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\r\n',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:35.841'
+}
+{
+  message: '[Error - 11:49:41 AM] 2024年7月25日 上午11:49:41 Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'class com.ttt.TestProcessor (in unnamed module @0x43164e79) cannot access class com.sun.tools.javac.processing.JavacProcessingEnvironment (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.processing to unnamed module @0x43164e79\n' +
+    'java.lang.IllegalAccessError: class com.ttt.TestProcessor (in unnamed module @0x43164e79) cannot access class com.sun.tools.javac.processing.JavacProcessingEnvironment (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.processing to unnamed module @0x43164e79\r\n' +
+    '\tat com.ttt.TestProcessor.init(TestProcessor.java:23)\r\n' +
+    '\tat org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.discoverNextProcessor(IdeAnnotationProcessorManager.java:93)\r\n' +
+    '\tat org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:118)\r\n' +
+    '\tat org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)\r\n' +
+    '\tat org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:134)\r\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:952)\r\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:449)\r\n' +
+    '\tat org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)\r\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:414)\r\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:211)\r\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:345)\r\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)\r\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)\r\n' +
+    '\tat org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\r\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\r\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\r\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\r\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\r\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\r\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\r\n',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:41.959'
+}
+{
+  message: '[Error - 11:49:42 AM] 2024年7月25日 上午11:49:42 Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-07-25 11:49:42.014'
+}

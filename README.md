@@ -80,6 +80,6 @@ Execution failed for task ':test1:compileJava'.
 ```
 
 ### about idea
-1. Other peopel on my team use `idea`. they got nothing.
+1. Other people on my team use `idea`. they got nothing.
 2. I also open this project with idea. it can run success. Also debug with Test1.main and Test2.main
 3. the idea `Gradle JVM` with JAVA_HOME: jdk8 (C:\Program Files\Java\jdk1.8.0_202)

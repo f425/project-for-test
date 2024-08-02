@@ -5,6 +5,7 @@
 * JAVA_HOME: `C:\Program Files\Java\jdk1.8.0_202`
 * Extension: Pack for Java v0.27.0
 * Extension: Language Support for Java(TM) by Red Hat v1.33.0
+* Extension: Gradle for Java v3.16.1
 * jdk1.8.0_202 from Oracle
 * jdk-17.0.12+7 from Adoptium
 * vscode Version: 1.92.0
@@ -26,7 +27,7 @@
     ```
 
 ## problem
-1. after upgrade `Extension: Language Support for Java(TM) by Red Hat` to `v1.33.0`. Got error:
+1. after upgrade `Extension: Language Support for Java(TM) by Red Hat` to `v1.33.0`.  Got error:
 ```
 [{
 	"resource": "/c:/Users/ww/work/test/project-for-test/test2/src/main/java/com/test2/Test2.java",
